@@ -1,0 +1,129 @@
+/*Common rules*/
+
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/*Header section*/
+
+header {
+  /*width: 100%;
+  height: 29.82rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  background-color: black;*/
+
+}
+
+.logo-container {
+  background-color: black;
+  width: 100%;
+  height: 2.32rem;
+}
+
+.logo {
+  width : 960px;
+  height: 2.32rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  margin: 0 1rem 0 0.5rem;
+}
+
+
+/*Banner*/
+
+.banner-container {
+  background-image: url(./css_images/moto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+}
+
+.banner {
+  width : 960px;
+  height: 25rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+}
+
+.banner p {
+  background-color: black;
+  width: 20rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem 0 2rem 3rem;
+  margin-top: 9rem;
+}
+
+.banner span {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: : 0.25rem;
+}
+
+
+/*Navigation bar*/
+
+.nav-container {
+  background-color: firebrick;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.nav {
+  width : 960px;
+  height: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav .btn-menu {
+  display: none;
+}
+
+
+
+/*Main section*/
+
+
+/*Footer section*/
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.copyright {
+  width : 960px;
+  height: 5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
