@@ -147,7 +147,7 @@ a {
   margin: 3rem 0 4rem 0;
 }
 
-.information p.in-black {
+.information p.title {
   background-color: black;
   color: white;
   padding: 1rem 0 1rem 2rem;
@@ -214,7 +214,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px),(max-resolution: 500dpi) {
 
   .nav,
   .products-and-information,
