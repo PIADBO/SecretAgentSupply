@@ -174,3 +174,116 @@ footer {
   justify-content: flex-start;
   align-items: center;
 }
+
+@media only screen and (max-width: 1024px) {
+
+  .nav,
+  .products-and-information,
+  .copyright {
+    width: 100vw;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav .btn-nav {
+    display: none;
+  }
+
+  .nav .btn-menu {
+    display: inline;
+  }
+
+  .products-and-information {
+    justify-content: space-around;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .information {
+    width: 35%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  .nav,
+  .products-and-information,
+  .copyright,
+  .banner {
+    width: 100vw;
+  }
+
+  .banner-container {
+    height: 15rem;
+  }
+
+
+  .banner {
+    height: 15rem;
+  }
+
+  .banner p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem 5rem 1rem 2rem;
+    margin-top: 10rem;
+  }
+
+  .banner span {
+    font-size: 0.77rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav .btn-nav {
+    display: none;
+  }
+
+  .nav .btn-menu {
+    display: inline;
+  }
+
+  .products-and-information {
+    justify-content: space-around;
+  }
+
+  .product {
+    width: 90%;
+    margin-bottom: 2.5rem;
+  }
+
+  .information {
+    width: 90%;
+    margin: 0 0;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .information.hours {
+    margin: 0.5rem 0 4rem 0;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+
+}
