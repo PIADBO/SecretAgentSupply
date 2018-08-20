@@ -60,7 +60,7 @@ a {
 
 .banner p {
   background-color: black;
-  width: 20rem;
+  width: 25rem;
   font-size: 2rem;
   font-weight: bold;
   padding: 2rem 0 2rem 3rem;
@@ -233,9 +233,9 @@ footer {
   }
 
   .banner p {
-    width: 100%;
+    width: 17rem;
     font-size: 1rem;
-    padding: 1rem 5rem 1rem 2rem;
+    padding: 1rem 7.2rem 1rem 2rem;
     margin-top: 10rem;
   }
 
