@@ -10,6 +10,9 @@ a {
   text-decoration: none;
 }
 
+span {
+  display: block;
+}
 
 /**********Header section**********/
 
@@ -58,17 +61,19 @@ a {
   color: white;
 }
 
-.banner p {
+.banner .text {
   background-color: black;
-  width: 25rem;
-  font-size: 2rem;
   font-weight: bold;
-  padding: 2rem 0 2rem 3rem;
   margin-top: 9rem;
+  padding: 2rem 0 2rem 3rem;
 }
 
-.banner span {
-  font-weight: bold;
+.banner h1 {
+  width: 25rem;
+  font-size: 2rem;
+}
+
+.banner h4 {
   font-size: 1rem;
   padding-bottom: : 0.25rem;
 }
@@ -117,12 +122,13 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  overflow:hidden;
 }
 
 .product img {
   margin: 2rem auto;
-  width: auto;
-  height: 9rem;
+  max-width: 8rem;
+  /*height: 9rem*/;
 }
 
 .product.glasses img {
@@ -131,7 +137,7 @@ a {
   height: 4.5rem;
 }
 
-.product p {
+.product span {
   text-align: center;
   background-color: black;
   color: white;
@@ -147,13 +153,13 @@ a {
   margin: 3rem 0 4rem 0;
 }
 
-.information p.title {
+.information span.title {
   background-color: black;
   color: white;
   padding: 1rem 0 1rem 2rem;
 }
 
-.information p {
+.information span {
   padding: 0.25rem 0;
 }
 
@@ -174,6 +180,8 @@ footer {
   justify-content: flex-start;
   align-items: center;
 }
+
+/* Media part max-width:1024px*/
 
 @media only screen and (max-width: 1024px) {
 
@@ -214,7 +222,9 @@ footer {
 
 }
 
-@media only screen and (max-width: 470px),(max-resolution: 500dpi) {
+/* Media part max-width:470px*/
+
+@media only screen and (max-width: 470px) {
 
   .nav,
   .products-and-information,
@@ -232,14 +242,17 @@ footer {
     height: 15rem;
   }
 
-  .banner p {
-    width: 17rem;
-    font-size: 1rem;
-    padding: 1rem 7.2rem 1rem 2rem;
+  .banner .text {
     margin-top: 10rem;
+    padding: 1rem 7.2rem 1rem 2rem;
+    width: 17rem;
   }
 
-  .banner span {
+  .banner h1 {
+    font-size: 1rem;
+  }
+
+  .banner h4 {
     font-size: 0.77rem;
   }
 
