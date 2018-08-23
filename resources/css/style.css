@@ -186,9 +186,11 @@ footer {
 @media only screen and (max-width: 1024px) {
 
   .nav,
+  .logo,
+  .banner,
   .products-and-information,
   .copyright {
-    width: 100vw;
+    width: 100%;
   }
 
   .nav {
@@ -227,10 +229,12 @@ footer {
 @media only screen and (max-width: 470px) {
 
   .nav,
+  .logo,
+  .banner,
   .products-and-information,
   .copyright,
   .banner {
-    width: 100vw;
+    width: 100%;
   }
 
   .banner-container {
